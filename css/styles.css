@@ -1,0 +1,506 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1,
+h2,
+h3,
+.mynav {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    width: 300px;
+    border-top: 3px double #cc9900;
+}
+
+a {
+    color: #fed136;
+    outline: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fec503;
+    outline: none;
+}
+
+h1,
+h4 {
+    color: #990033;
+}
+
+/** Navigation Bar **/
+
+.mynav {
+    background-color: #cccccc;
+    border: 0;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+#logo {
+    margin-top: -2%;
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #990033;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    color: #5b5d64;
+} 
+
+.navbar-inverse .navbar-nav li a:active {
+    background-color: transparent;
+    color: #5b5d64;
+}
+
+
+/** Home Page **/ 
+
+.carousel {
+    margin-top: 70px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-left,
+.img-right,
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+}
+
+.box {
+    padding-bottom: 15%;
+}
+
+.box p {
+    padding-top: 10%;
+}
+
+/** About section **/
+
+#about {
+    background-image: url('../img/kaha.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#space {
+    margin-bottom: 50%;
+}
+.about-box {
+    width: 80%;
+    height: 650px;
+    background-color: rgba(255, 204, 102, 0.6);
+    margin: 10% auto;
+}
+
+.about-info {
+    margin-top: 25%;
+}
+
+.modal-header1 {
+    width: 100%;
+    height: 500px;
+}
+
+.modal-body1 {
+    background-image: url('../img/timeline.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/** Faq section **/
+
+#faq h2,
+#portfolio h2 {
+    margin-top: 10%;
+}
+
+.btn-circle-lg {
+    width: 320px;
+    height: 320px;
+    text-align: center;
+    padding: 13px 0;
+    font-size: 30px;
+    line-height: 2.00;
+    border: #cc9900  double 5px;
+    border-radius: 320px;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.btn:focus,
+.btn-default:active:focus {
+    outline: none;
+}
+
+.btn-default:focus,
+.btn-default:active,
+.img-border,
+.panel {
+    border: #cc9900  double 5px;
+}
+
+#modalembed {
+    height: 600px;
+    width: 100%;
+    padding: 10px;  
+}
+
+.main {
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+/** contact page **/
+
+#contacttitle {
+    margin-top: 13%;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-top: 5%;
+}
+
+.title h3 {
+    margin-bottom: 1%;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    width: 100%;
+    height: 300px;
+    margin-top: 2%;  
+    margin-bottom: 2%;
+}
+      /* Optional: Makes the sample page fill the window. 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*/
+/** iframe / video **/
+
+#video h2 {
+    margin-top: 20%;
+}
+
+#video1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#frame,
+#video1 {
+    border: #cc9900 double 5px;
+    margin: 5%;
+
+}
+/** portfolio  **/
+
+#portfolio {
+    background-color: #666666;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+#gallery img {
+    background-color: #fff;
+    box-shadow: 7px 7px 7px  #000000;
+    margin:auto;
+    margin-top: 35%;
+    margin-bottom: 15%;
+}
+
+/** calculator**/
+
+#calculator {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: orange;
+    background: repeating-linear-gradient(
+      to right,
+      #f6ba52,
+      #f6ba52 10px,
+      #ffd180 10px,
+      #ffd180 20px
+    );
+}
+
+#display {
+    width: 318px;
+    height: 75px;
+    border: grey 1px solid;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    padding-right: 2px;
+    font-size: 3em;
+    text-align: right;
+}
+
+output {
+   margin: 0px auto;
+}
+
+.valuebtn,
+#display,
+.clearbtn {
+    background-color: rgba(254, 195, 1, 0.6);
+}
+
+.calbtnop {
+    background-color: rgba(1, 174, 254, 0.6);
+}
+
+.calbtn,
+.clearbtn,
+.valuebtn,
+.calbtnop {
+    width: 75px;
+    height:  75px;
+    border-radius: 5px;
+    margin: 1px 1px;
+    font-size: 2em;
+
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.calbackg {
+    width: 324px;
+    height: 390px;
+    background-color: white;
+    margin: 0px auto;
+    border-radius: 5px;
+    box-shadow: 7px 7px 7px  #000002;
+}
+/**.desc {
+    text-align: center;
+    margin-top: -25%;
+}**/
+
+#gallery img:hover {
+    box-shadow: 10px 10px 5px #888888;;
+}
+
+/** Exercise 2.9 **/
+
+.work-img {
+    display: block; /* needed to center the element with margin */
+    margin: auto; /* center the image inside the column if it's smaller */
+    max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+    position: relative; /* is needed for .info position: absolute to work */
+}
+
+.info{
+    position: absolute; /* let's us move the text around and not worry about the image */
+    top: 0; /* position the text 15% or 0 away from the top */
+    /**left: 22%;
+    color:#fff;**/
+    text-transform: uppercase;
+    width: 200px;
+    height: 200px;
+    font-weight: 200;
+    letter-spacing: 0.5em;
+    line-height: 1.6;
+    background-color: rgba(102, 102, 102, 0.9);
+    background-size: cover;
+    display: none;
+}
+
+.proj-title {
+    font-weight: 400;
+}
+
+.info p {
+    font-size: 2em;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.aversion a {
+    margin-left: 5%;
+}
+
+
+/**span.info {
+    max-width: 200px;
+    max-height: 200px;
+    background-color: #663333;
+
+}**/
+
+/** footer **/
+
+footer,
+#contact {
+    background: rgba(204, 204, 204, 0.2);
+    padding:2%;
+    background-image: -webkit-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+    background-image: -moz-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+    background-image: -o-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+    background-image: repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+    -webkit-background-size: 4px 4px;
+    -moz-background-size: 4px 4px;
+    background-size: 4px 4px;
+    background-size:cover;
+    padding-left: 2%;
+}
+
+.footer-copyright{
+    float:right;
+}
+
+.nav-footer a{
+    float:left;
+    color:#ffffff;
+    margin-right:1%;
+    text-decoration: none;
+}
+
+.input-group {
+    width: 60%;
+}
+
+.social {
+    float: right;
+}
+
+.twitter-follow-button {
+    display: block;
+    position: relative;
+    margin-top: 5%;
+}
+
+#long hr {
+    width: 100%;
+}
+
+@media (min-width: 979px){
+
+    .input-group {
+        width: 30%;
+    }
+}
+
+@media (min-width:768px) {
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #logo {
+        width: 50%;
+    } 
+
+    #contact h2 {
+        margin-top: 5%;
+    }
+
+    .single {
+        margin-top: 5%; 
+        float: left;
+    }
+
+    .social {
+        float: left;
+    }
+
+    .input-group {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    #faq h2,
+    #portfolio h2 {
+        margin-top: 20%;
+    }
+
+    #video h2 {
+        margin-top: 15%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    #logo {
+        width: 70%;
+    }    
+}
+
+@media (max-width: 480px) {
+
+    #logo {
+        width: 60%;
+        margin-top: 0px;
+    }
+
+    .footer-copyright{
+        float: left;
+    }
+
+}
